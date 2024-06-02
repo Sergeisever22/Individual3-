@@ -1,0 +1,64 @@
+p {
+    margin: 4px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr.income {
+    background-color: #86efac;
+  }
+  
+  tbody tr.income:hover {
+    background-color: #4ade80;
+    cursor: pointer;
+  }
+  
+  tbody tr.expense {
+    background-color: #fca5a5;
+  }
+  
+  tbody tr.expense:hover {
+    background-color: #f87171;
+    cursor: pointer;
+  }
+  
+  #total {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  #transaction-detail {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
